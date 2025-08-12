@@ -8,10 +8,6 @@ local RunService = game:GetService("RunService")
 local player = Players.LocalPlayer
 local mouse = player:GetMouse()
 
--- ✅ Loading Screen
-loadstring(game:HttpGet("https://raw.githubusercontent.com/KuniDevLua/GrowAGarden/refs/heads/main/loadingscreen1"))()
-wait(5)
-
 local espEnabled = true
 local truePetMap = {}
 local autoRunning = false
