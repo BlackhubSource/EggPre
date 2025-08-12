@@ -160,7 +160,7 @@ end
 
 -- 🎨 GUI Theme Setup
 local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
-gui.Name = "KuniPetHatch"
+gui.Name = "ZovereignPetHatch"
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 240, 0, 310)
