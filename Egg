@@ -1,5 +1,5 @@
 
--- ⛏ Zovereign FREE Pet Hatch GUI (Dark Theme with White Buttons)
+-- ⛏ zovereignxz FREE Pet Hatch GUI (Dark Theme with White Buttons)
 local Players = game:GetService("Players")
 local Workspace = game:GetService("Workspace")
 local TweenService = game:GetService("TweenService")
@@ -156,7 +156,7 @@ end
 
 -- 🎨 GUI Theme Setup
 local gui = Instance.new("ScreenGui", player:WaitForChild("PlayerGui"))
-gui.Name = "ZovereignPetHatch"
+gui.Name = "zovereignxzPetHatch"
 
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 240, 0, 310)
@@ -206,7 +206,7 @@ end
 local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1, 0, 0, 28)
 title.BackgroundTransparency = 1
-title.Text = "Zovereign"
+title.Text = "zovereignxz"
 title.Font = Enum.Font.FredokaOne
 title.TextSize = 17
 title.TextColor3 = Color3.fromRGB(255, 225, 130)
@@ -280,7 +280,7 @@ local credit = Instance.new("TextLabel", frame)
 credit.Size = UDim2.new(1, 0, 0, 18)
 credit.Position = UDim2.new(0, 0, 0, 260)
 credit.BackgroundTransparency = 1
-credit.Text = "Tiktok: @Zovereign"
+credit.Text = "Tiktok: @zovereignxz"
 credit.Font = Enum.Font.FredokaOne
 credit.TextSize = 12
 credit.TextColor3 = Color3.fromRGB(180, 180, 180)
@@ -302,7 +302,7 @@ local minimized = false
 local minimizedLabel = Instance.new("TextButton")
 minimizedLabel.Size = UDim2.new(0, 140, 0, 30)
 minimizedLabel.Position = UDim2.new(0, 20, 0, 100)
-minimizedLabel.Text = "Zovereign"
+minimizedLabel.Text = "zovereignxz"
 minimizedLabel.Font = Enum.Font.FredokaOne
 minimizedLabel.TextSize = 16
 minimizedLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
